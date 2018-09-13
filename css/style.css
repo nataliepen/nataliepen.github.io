@@ -28,10 +28,16 @@ body{
         font-size:16px;
     }
     
-    header ul{
-        margin:0;
-        padding:0;
+    header li{
+        float:left;
+        display:inline;
+        padding: 0 20px 0 20px;
     }
+    
+    headerbranding{
+        float:left;
+    }
+    
     
     header #branding{
         float:left;
@@ -44,4 +50,9 @@ body{
     header nav{
         float:right;
         margin-top:10px;
+    }
+    
+    header .highlight, header .current a{
+        color: #e8491d
+        font-
     }
